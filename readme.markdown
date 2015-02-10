@@ -1,4 +1,4 @@
-# vec3-cross
+# cross
 
 cross product
 
@@ -8,7 +8,7 @@ This implementation was ripped directly out of
 # example
 
 ``` js
-var cross = require('vec3-cross');
+var cross = require('cross');
 var a = process.argv[2].split(',');
 var b = process.argv[3].split(',');
 console.log(cross([], a, b));
@@ -24,7 +24,7 @@ $ node cross.js 3,-3,1 4,9,2
 # methods
 
 ``` js
-var cross = require('vec3-cross')
+var cross = require('cross')
 ```
 
 ## cross(out, a, b)
@@ -36,7 +36,7 @@ Save the cross-product of vectors `a` and `b` into `out`, returning `out`.
 With [npm](https://npmjs.org) do:
 
 ```
-npm install vec3-cross
+npm install cross
 ```
 
 # license
