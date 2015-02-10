@@ -1,6 +1,6 @@
 # vec3-cross
 
-3 dimensional cross product
+cross product
 
 This implementation was ripped directly out of
 [gl-matrix](https://npmjs.org/package/gl-matrix).
